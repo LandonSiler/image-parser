@@ -1,8 +1,3 @@
-let imageLink = document.getElementById("imageLink").innerHTML;
-let casualOSLink = document.getElementById("casualOSLink").innerHTML;
-
 let i = new Image;
-i.src = imageLink;
-i.onload = function() {
-    window.open(`${casualOSLink}&imageWidth=${i.width}&imageHeight=${i.height}`,"_self");
-};
+i.src = document.getElementById("imageLink").innerHTML;
+i.onload = () => {window.open(`${document.getElementById("casualOSLink").innerHTML}&imageWidth=${i.width}&imageHeight=${i.height}`,"_self")};
