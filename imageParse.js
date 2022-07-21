@@ -1,5 +1,5 @@
-const imageLink = document.getElementById("imageLink").innerHTML;
-const casualOSLink = document.getElementById("casualOSLink").innerHTML;
+let imageLink = document.getElementById("imageLink").innerHTML;
+let casualOSLink = document.getElementById("casualOSLink").innerHTML;
 
 let i = new Image;
 i.src = imageLink;
